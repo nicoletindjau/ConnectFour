@@ -8,6 +8,7 @@ A human player would ask the player which column to play next, A random player r
 2. A human player: Player('X') or Player('O')
    A random player: RandomPlayer('X') or RandomPlayer('O')
    An Ai player: AIPlayer('X', tiebreak, lookahead) or AIPlayer('O', tiebreak, lookahead)
+   
    (tiebreak: 'LEFT', 'RIGHT', or 'RANDOM'- specify the player’s tiebreaking strategy. lookahead: an integer specifying how many moves the player looks ahead in order to evaluate possible moves, thus, the higher the lookahead the smarter the AI)
    
 3. After selecting your players you can run aiPlayer.py and
