@@ -7,12 +7,12 @@ A human player would ask the player which column to play next, A random player r
 
 2. A human player: Player('X') or Player('O')
    A random player: RandomPlayer('X') or RandomPlayer('O')
-   An Ai player: AIPlayer('X', tiebreak, lookahead) or AIPlayer('O', tiebreak, lookahead) \n
+   An Ai player: AIPlayer('X', tiebreak, lookahead) or AIPlayer('O', tiebreak, lookahead)
    (tiebreak: 'LEFT', 'RIGHT', or 'RANDOM'- specify the player’s tiebreaking strategy. lookahead: an integer specifying how many moves the player looks ahead in order to evaluate possible moves, thus, the higher the lookahead the smarter the AI)
    
-3. After selecting your players you can run aiPlayer.py and
-in the console write 'connect_four(Player1, Player2)'
-where Player1 and player 2 are one of the players in step 2.
+3. After selecting your players you can run aiPlayer.py and in the console write 
+'connect_four(Player1, Player2)'
+(where Player1 and player 2 are one of the players in step 2)
 
 eg. to play between two humans:
 'connect_four(Player('X'), Player('O'))'
